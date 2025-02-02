@@ -1,0 +1,9 @@
+body {
+  background-color: grey;
+}
+
+.box {
+  background-color: pink;
+  flex-grow: 1;
+  padding: 1rem;
+}
