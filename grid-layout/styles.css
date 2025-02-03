@@ -1,0 +1,14 @@
+body {
+  padding: 2rem;
+  font-size: 1.5rem;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(1, minmax(50px, auto));
+  /* grid-template-areas: "..." */
+}
+
+.box {
+  background: pink;
+  padding: 2rem;
+}
